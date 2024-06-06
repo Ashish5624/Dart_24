@@ -1,10 +1,10 @@
 import 'dart:io';
 
 void main() {
-  print('Enter 2 numbers:\n');
+  print('Enter two numbers:\n');
   var input1 = stdin.readLineSync();
   var input2 = stdin.readLineSync();
-  print("The result is shown below:");
+  //print("The result is shown below:");
   //var k = stdin.readLineSync();
 
   var num1 = int.parse(input1!);
